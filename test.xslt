@@ -61,6 +61,7 @@
                     <input id="search" type="search" placeholder="Filter by concept name" />
                 </div>
                 <xsl:apply-templates select="concept" />
+                <div style="display:block;width:100%;height:1000px;"></div>
                 <script>
                     $(document).ready(function() {
                         $.expr[':'].icontains = $.expr.createPseudo(function(text) {
