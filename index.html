@@ -1,9 +1,677 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="refresh" content="0; URL='https://bmamlin.github.io/pepfar-mer-indicators/test.xml'" />
-</head>
-<body>
-Redirecting to <a href="test.xml">test.xml</a>
-</body>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html>
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+      <style type="text/css">
+         body { font-family: arial }
+         .concept {
+         border:thin solid grey;
+         margin: 5pt;
+         padding: 5pt;
+         }
+         .concept-name {
+         font-weight: bold;
+         font-size: 150%;
+         }
+         .concept-id {
+         font-style: italic;
+         color: #B0B0B0;
+         }
+         .concept-code {
+         font-style: italic;
+         color: #B0B0B0;
+         }
+         .status {
+         float: right;
+         padding: 2pt;
+         font-weight: bold;
+         border-radius: 4pt;
+         }
+         .status-active {
+         color: white;
+         background-color: #A0D0A0;
+         }
+         
+      </style>
+   </head>
+   <body>
+      <h1>PEPFAR MER Indicators</h1>
+      <h2>Code</h2>
+      <p>N32784</p>
+      <h2>ID</h2>
+      <p>32784</p>
+      <h2>Version</h2>
+      <p>Working</p>
+      <h2>Authority</h2>
+      <p>Apelon, Inc.</p>
+      <h2>Properties</h2>
+      <ul>
+         <li>Additional References (9)</li>
+         <li>Data Collection Frequency (6)</li>
+         <li>Data Source (5)</li>
+         <li>Denominator (12)</li>
+         <li>Disaggregation(s) (4)</li>
+         <li>Explanation of Denominator (13)</li>
+         <li>Explanation of Numerator (8)</li>
+         <li>Indicator code (10)</li>
+         <li>Interpretation (14)</li>
+         <li>Method of Measurement (7)</li>
+         <li>NGI Mapping (11)</li>
+         <li>Numerator (3)</li>
+         <li>PEPFAR Support (15)</li>
+         <li>PEPFAR Support Target/Result Type (2)</li>
+         <li>Program Area Group (16)</li>
+         <li>Purpose (1)</li>
+      </ul>
+      <div class="search">
+         <input id="search" type="search" placeholder="Filter by concept name"></input>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Care and Support</div>
+         <div class="concept-code">code: C5</div>
+         <div class="concept-id">id: 5</div>
+         <h4>Associations</h4>
+         <ul>
+            <li>
+               <a href="#" class="association">Percentage of PLHIV newly enrolled in HIV clinical care who start isoniazid preventative
+                  therapy (IPT)
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of HIV positive adults and children who received at least one of the following
+                  during the reporting period: clinical assessment (WHO staging) OR CD4 count OR viral
+                  load
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of active beneficiaries accompanied or otherwise supported for transport to
+                  HIV
+                  testing, care and/or treatment services at least once every three months
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of registered new and relapsed TB cases with documented HIV status</a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of HIV-positive adults and children newly enrolled in clinical care during
+                  the
+                  reporting period who received at least one of the following at enrollment: clinical
+                  assessment
+                  (WHO staging) OR CD4 count OR viral load
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of registered TB cases who are HIV-positive who are on ART</a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of PEPFAR-supported clinical care sites at which at least 80% of PLHIV
+                  received all of the following during the reporting period: 1) clinical assessment
+                  (WHO staging)
+                  OR CD4 count OR viral load, AND 2) TB screening at last visit, AND 3) if eligible,
+                  cotrimoxazole
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Proportion of clinically undernourished PLHIV who received therapeutic or supplementary
+                  food
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of active beneficiaries served by PEPFAR OVC programs for children and families
+                  affected by HIV/AIDS
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of HIV positive adults and children receiving care and support services outside
+                  of the health facility
+               </a>
+            </li>
+         </ul>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Existence of a standardized national registry of health facilities that is managed
+            and
+            updated by stakeholders
+         </div>
+         <div class="concept-code">code: C42</div>
+         <div class="concept-id">id: 42</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Existence of national HIV/AIDS M&amp;E system based on the UNAIDS 12 components model</div>
+         <div class="concept-code">code: C43</div>
+         <div class="concept-id">id: 43</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Family Planning and HIV Integration: Percentage of HIV service delivery points supported
+            by
+            PEPFAR that are directly providing integrated voluntary family planning services
+         </div>
+         <div class="concept-code">code: C19</div>
+         <div class="concept-id">id: 19</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Final outcomes among HIV exposed infants registered in the birth cohort</div>
+         <div class="concept-code">code: C11</div>
+         <div class="concept-id">id: 11</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Health Systems Strengthening</div>
+         <div class="concept-code">code: C7</div>
+         <div class="concept-id">id: 7</div>
+         <h4>Associations</h4>
+         <ul>
+            <li>
+               <a href="#" class="association">Existence of national HIV/AIDS M&amp;E system based on the UNAIDS 12 components
+                  model
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of storage sites where commodities are stocked according to plan, by level
+                  in
+                  supply system
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of whole blood collections each year by the NBTS network</a>
+            </li>
+            <li>
+               <a href="#" class="association">Key HIV/AIDS-related policies monitored through Policy Tracking Tables (PTTs)</a>
+            </li>
+            <li>
+               <a href="#" class="association">Human Resource Information Systems (HRIS) Assessment Framework</a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of laboratories and POC testing sites that perform HIV diagnostic testing
+                  that participate and successfully pass in an analyte-specific proficiency testing
+                  (PT)
+                  program
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of PEPFAR-supported testing facilities (laboratories) that are recognized by
+                  national, regional, or international standards for accreditation or have achieved
+                  a minimal
+                  acceptable level towards attainment of such accreditation
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Existence of a standardized national registry of health facilities that is managed
+                  and
+                  updated by stakeholders
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of new HCW who graduated from a pre-service training institution or program
+                  as a
+                  result of PEPFAR-supported strengthening efforts, within the reporting period, by
+                  select
+                  cadre
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of PEPFAR-supported testing facilities with capacity to perform clinical
+                  laboratory tests
+               </a>
+            </li>
+         </ul>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Human Resource Information Systems (HRIS) Assessment Framework</div>
+         <div class="concept-code">code: C41</div>
+         <div class="concept-id">id: 41</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Key HIV/AIDS-related policies monitored through Policy Tracking Tables (PTTs)</div>
+         <div class="concept-code">code: C44</div>
+         <div class="concept-id">id: 44</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Level 1 Indicators</div>
+         <div class="concept-code">code: C3</div>
+         <div class="concept-id">id: 3</div>
+         <h4>Associations</h4>
+         <ul>
+            <li>
+               <a href="#" class="association">Prevention Services</a>
+            </li>
+            <li>
+               <a href="#" class="association">Care and Support</a>
+            </li>
+            <li>
+               <a href="#" class="association">Treatment</a>
+            </li>
+            <li>
+               <a href="#" class="association">Health Systems Strengthening</a>
+            </li>
+         </ul>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of HIV positive adults and children receiving care and support services outside
+            of
+            the health facility
+         </div>
+         <div class="concept-code">code: C22</div>
+         <div class="concept-id">id: 22</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of HIV positive adults and children who received at least one of the following
+            during
+            the reporting period: clinical assessment (WHO staging) OR CD4 count OR viral load
+         </div>
+         <div class="concept-code">code: C21</div>
+         <div class="concept-id">id: 21</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of HIV-positive adults and children newly enrolled in clinical care during
+            the
+            reporting period who received at least one of the following at enrollment: clinical
+            assessment
+            (WHO staging) OR CD4 count OR viral load
+         </div>
+         <div class="concept-code">code: C20</div>
+         <div class="concept-id">id: 20</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of PEPFAR-supported testing facilities (laboratories) that are recognized by
+            national, regional, or international standards for accreditation or have achieved
+            a minimal
+            acceptable level towards attainment of such accreditation
+         </div>
+         <div class="concept-code">code: C36</div>
+         <div class="concept-id">id: 36</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of PEPFAR-supported testing facilities with capacity to perform clinical laboratory
+            tests
+         </div>
+         <div class="concept-code">code: C35</div>
+         <div class="concept-id">id: 35</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of active beneficiaries accompanied or otherwise supported for transport to
+            HIV
+            testing, care and/or treatment services at least once every three months
+         </div>
+         <div class="concept-code">code: C29</div>
+         <div class="concept-id">id: 29</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of active beneficiaries served by PEPFAR OVC programs for children and families
+            affected by HIV/AIDS
+         </div>
+         <div class="concept-code">code: C28</div>
+         <div class="concept-id">id: 28</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of adults and children currently receiving antiretroviral therapy (ART)
+            [current]
+         </div>
+         <div class="concept-code">code: C31</div>
+         <div class="concept-id">id: 31</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of adults and children newly enrolled on antiretroviral therapy (ART)</div>
+         <div class="concept-code">code: C30</div>
+         <div class="concept-id">id: 30</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of individuals who received HIV Testing and Counseling (HTC) services for HIV
+            and
+            received their test results
+         </div>
+         <div class="concept-code">code: C2</div>
+         <div class="concept-id">id: 2</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of males circumcised as part of the voluntary medical male circumcision (VMMC)
+            for
+            HIV prevention program within the reporting period
+         </div>
+         <div class="concept-code">code: C12</div>
+         <div class="concept-id">id: 12</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of males circumcised surgically or by medical device that experienced at least
+            one
+            moderate or severe adverse event(s) (AEs)
+         </div>
+         <div class="concept-code">code: C13</div>
+         <div class="concept-id">id: 13</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of new HCW who graduated from a pre-service training institution or program
+            as a
+            result of PEPFAR-supported strengthening efforts, within the reporting period, by
+            select
+            cadre
+         </div>
+         <div class="concept-code">code: C40</div>
+         <div class="concept-id">id: 40</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of people completing an intervention pertaining to gender norms, that meets
+            minimum
+            criteria
+         </div>
+         <div class="concept-code">code: C18</div>
+         <div class="concept-id">id: 18</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of people receiving post-GBV care</div>
+         <div class="concept-code">code: C17</div>
+         <div class="concept-id">id: 17</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of people who inject drugs (PWID) on medication assisted therapy (MAT) for
+            at least 6
+            months
+         </div>
+         <div class="concept-code">code: C16</div>
+         <div class="concept-id">id: 16</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Number of whole blood collections each year by the NBTS network</div>
+         <div class="concept-code">code: C38</div>
+         <div class="concept-id">id: 38</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">PEPFAR MER Indicators ROOT</div>
+         <div class="concept-code">code: C1</div>
+         <div class="concept-id">id: 1</div>
+         <h4>Associations</h4>
+         <ul>
+            <li>
+               <a href="#" class="association">Level 1 Indicators</a>
+            </li>
+         </ul>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of ART patients with a viral load result documented in the medical record
+            within
+            the past 12 months
+         </div>
+         <div class="concept-code">code: C33</div>
+         <div class="concept-id">id: 33</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of HIV-positive pregnant women who received antiretrovirals to reduce risk
+            for
+            mother-to-child-transmission (MTCT) during pregnancy and delivery
+         </div>
+         <div class="concept-code">code: C9</div>
+         <div class="concept-id">id: 9</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of PEPFAR-supported clinical care sites at which at least 80% of PLHIV
+            received
+            all of the following during the reporting period: 1) clinical assessment (WHO staging)
+            OR CD4
+            count OR viral load, AND 2) TB screening at last visit, AND 3) if eligible, cotrimoxazole
+         </div>
+         <div class="concept-code">code: C23</div>
+         <div class="concept-id">id: 23</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of PLHIV newly enrolled in HIV clinical care who start isoniazid preventative
+            therapy (IPT)
+         </div>
+         <div class="concept-code">code: C26</div>
+         <div class="concept-id">id: 26</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of adults and children known to be alive and on treatment 12 months after
+            initiation of antiretroviral therapy (Recommended: 6, 24, 36 months)
+         </div>
+         <div class="concept-code">code: C32</div>
+         <div class="concept-id">id: 32</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of individuals from priority populations who completed a standardized HIV
+            prevention intervention, including the specified minimum components, during the reporting
+            period
+         </div>
+         <div class="concept-code">code: C14</div>
+         <div class="concept-id">id: 14</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of infants born to HIV-positive women who had a virologic HIV test done
+            within 12
+            months of birth
+         </div>
+         <div class="concept-code">code: C10</div>
+         <div class="concept-id">id: 10</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of key populations reached with individual and/or small group level HIV
+            preventive interventions that are based on evidence and/or meet the minimum standards
+            required
+         </div>
+         <div class="concept-code">code: C15</div>
+         <div class="concept-id">id: 15</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of laboratories and POC testing sites that perform HIV diagnostic testing
+            that
+            participate and successfully pass in an analyte-specific proficiency testing (PT)
+            program
+         </div>
+         <div class="concept-code">code: C37</div>
+         <div class="concept-id">id: 37</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of pregnant women with known status (includes women who were tested for
+            HIV and
+            received their results)
+         </div>
+         <div class="concept-code">code: C8</div>
+         <div class="concept-id">id: 8</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of registered TB cases who are HIV-positive who are on ART</div>
+         <div class="concept-code">code: C25</div>
+         <div class="concept-id">id: 25</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of registered new and relapsed TB cases with documented HIV status</div>
+         <div class="concept-code">code: C24</div>
+         <div class="concept-id">id: 24</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Percentage of storage sites where commodities are stocked according to plan, by level
+            in
+            supply system
+         </div>
+         <div class="concept-code">code: C39</div>
+         <div class="concept-id">id: 39</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Prevention Services</div>
+         <div class="concept-code">code: C4</div>
+         <div class="concept-id">id: 4</div>
+         <h4>Associations</h4>
+         <ul>
+            <li>
+               <a href="#" class="association">Number of people receiving post-GBV care</a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of HIV-positive pregnant women who received antiretrovirals to reduce risk
+                  for mother-to-child-transmission (MTCT) during pregnancy and delivery
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Family Planning and HIV Integration: Percentage of HIV service delivery points supported
+                  by PEPFAR that are directly providing integrated voluntary family planning services
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Final outcomes among HIV exposed infants registered in the birth cohort</a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of infants born to HIV-positive women who had a virologic HIV test done
+                  within 12 months of birth
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of key populations reached with individual and/or small group level HIV
+                  preventive interventions that are based on evidence and/or meet the minimum standards
+                  required
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of people who inject drugs (PWID) on medication assisted therapy (MAT) for
+                  at
+                  least 6 months
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of people completing an intervention pertaining to gender norms, that meets
+                  minimum criteria
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of males circumcised surgically or by medical device that experienced at least
+                  one moderate or severe adverse event(s) (AEs)
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of individuals from priority populations who completed a standardized HIV
+                  prevention intervention, including the specified minimum components, during the reporting
+                  period
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of pregnant women with known status (includes women who were tested for
+                  HIV
+                  and received their results)
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of males circumcised as part of the voluntary medical male circumcision (VMMC)
+                  for HIV prevention program within the reporting period
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of individuals who received HIV Testing and Counseling (HTC) services for HIV
+                  and
+                  received their test results
+               </a>
+            </li>
+         </ul>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Proportion of clinically undernourished PLHIV who received therapeutic or supplementary
+            food
+         </div>
+         <div class="concept-code">code: C27</div>
+         <div class="concept-id">id: 27</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Proportion of viral load tests with an undetectable viral load (&lt;1000 copies/ml)</div>
+         <div class="concept-code">code: C34</div>
+         <div class="concept-id">id: 34</div>
+      </div>
+      <div class="concept">
+         <div class="status status-active">ACTIVE</div>
+         <div class="concept-name">Treatment</div>
+         <div class="concept-code">code: C6</div>
+         <div class="concept-id">id: 6</div>
+         <h4>Associations</h4>
+         <ul>
+            <li>
+               <a href="#" class="association">Number of adults and children currently receiving antiretroviral therapy (ART)
+                  [current]
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Number of adults and children newly enrolled on antiretroviral therapy (ART)</a>
+            </li>
+            <li>
+               <a href="#" class="association">Proportion of viral load tests with an undetectable viral load (&lt;1000
+                  copies/ml)
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of adults and children known to be alive and on treatment 12 months after
+                  initiation of antiretroviral therapy (Recommended: 6, 24, 36 months)
+               </a>
+            </li>
+            <li>
+               <a href="#" class="association">Percentage of ART patients with a viral load result documented in the medical record
+                  within the past 12 months
+               </a>
+            </li>
+         </ul>
+      </div>
+      <script>
+                    $(document).ready(function() {
+                        $.expr[':'].icontains = $.expr.createPseudo(function(text) {
+                            return function(e) {
+                            return $(e).text().toUpperCase().indexOf(text.toUpperCase()) >= 0;
+                            };
+                        });
+                        
+                        $('.association').click(function() {
+                            var name = $(this).text();
+                            alert('I\'d take you to "'+name.replace(/\s+/g, ' ').trim()
+                                +'" page now if I could.');
+                        });
+                        
+                        $('#search').on('input', function() {
+                            var search = $(this).val();
+                            if (!search || search.length < 1) {
+                                $('.concept').show();
+                                return;
+                            }
+                            $('.concept:has(> .concept-name:icontains('+search+'))').each(function() {
+                                $(this).show();
+                            });
+                            $('.concept:has(> .concept-name:not(:icontains('+search+')))').each(function() {
+                                $(this).hide();
+                            });
+                        }).focus();
+                    });
+                </script>
+   </body>
 </html>
