@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xslt" href="pepfar_mer_indicators.xslt"?>
+<!-- DTS Export Terminology File Version 2 -->
+<terminology type="namespace">
+ <namespace type="Thesaurus">
+  <name>PEPFAR MER Indicators</name>
+  <code>N32784</code>
+  <id>32784</id>
+  <version>Working</version>
+  <authority>Apelon, Inc.</authority>
+ </namespace>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Additional References</name>
+  <id>9</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Data Collection Frequency</name>
+  <id>6</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Data Source</name>
+  <id>5</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Denominator</name>
+  <id>12</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Disaggregation(s)</name>
+  <id>4</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Explanation of Denominator</name>
+  <id>13</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Explanation of Numerator</name>
+  <id>8</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Indicator code</name>
+  <id>10</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Interpretation</name>
+  <id>14</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Method of Measurement</name>
+  <id>7</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>NGI Mapping</name>
+  <id>11</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Numerator</name>
+  <id>3</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>PEPFAR Support</name>
+  <id>15</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>PEPFAR Support Target/Result Type</name>
+  <id>2</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Program Area Group</name>
+  <id>16</id>
+ </proptype>
+ <proptype type="C">
+  <content>PEPFAR MER Indicators</content>
+  <name>Purpose</name>
+  <id>1</id>
+ </proptype>
+ <assntype type="C" purpose="A">
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Parent Of</name>
+  <id>1</id>
+  <inverse_name>Child Of</inverse_name>
+ </assntype>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Care and Support</name>
+  <code>C5</code>
+  <id>5</id>
+  <status>ACTIVE</status>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of PLHIV newly enrolled in HIV clinical care who start isoniazid preventative
+    therapy (IPT)</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of HIV positive adults and children who received at least one of the following
+    during the reporting period: clinical assessment (WHO staging) OR CD4 count OR viral
+    load</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of active beneficiaries accompanied or otherwise supported for transport to HIV
+    testing, care and/or treatment services at least once every three months</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of registered new and relapsed TB cases with documented HIV status</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of HIV-positive adults and children newly enrolled in clinical care during the
+    reporting period who received at least one of the following at enrollment: clinical assessment
+    (WHO staging) OR CD4 count OR viral load</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of registered TB cases who are HIV-positive who are on ART</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of PEPFAR-supported clinical care sites at which at least 80% of PLHIV
+    received all of the following during the reporting period: 1) clinical assessment (WHO staging)
+    OR CD4 count OR viral load, AND 2) TB screening at last visit, AND 3) if eligible,
+    cotrimoxazole</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Proportion of clinically undernourished PLHIV who received therapeutic or supplementary
+    food</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of active beneficiaries served by PEPFAR OVC programs for children and families
+    affected by HIV/AIDS</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Care and Support</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of HIV positive adults and children receiving care and support services outside
+    of the health facility</to_name>
+  </association>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Existence of a standardized national registry of health facilities that is managed and
+   updated by stakeholders</name>
+  <code>C42</code>
+  <id>42</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>SI_HIS</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Existence of national HIV/AIDS M&amp;E system based on the UNAIDS 12 components model</name>
+  <code>C43</code>
+  <id>43</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>SI_ME</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Family Planning and HIV Integration: Percentage of HIV service delivery points supported by
+   PEPFAR that are directly providing integrated voluntary family planning services</name>
+  <code>C19</code>
+  <id>19</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>FPINT_SITE</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Final outcomes among HIV exposed infants registered in the birth cohort</name>
+  <code>C11</code>
+  <id>11</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>PMTCT_FO</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Health Systems Strengthening</name>
+  <code>C7</code>
+  <id>7</id>
+  <status>ACTIVE</status>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Existence of national HIV/AIDS M&amp;E system based on the UNAIDS 12 components
+    model</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of storage sites where commodities are stocked according to plan, by level in
+    supply system</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of whole blood collections each year by the NBTS network</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Key HIV/AIDS-related policies monitored through Policy Tracking Tables (PTTs)</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Human Resource Information Systems (HRIS) Assessment Framework</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of laboratories and POC testing sites that perform HIV diagnostic testing
+    that participate and successfully pass in an analyte-specific proficiency testing (PT)
+    program</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of PEPFAR-supported testing facilities (laboratories) that are recognized by
+    national, regional, or international standards for accreditation or have achieved a minimal
+    acceptable level towards attainment of such accreditation</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Existence of a standardized national registry of health facilities that is managed and
+    updated by stakeholders</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of new HCW who graduated from a pre-service training institution or program as a
+    result of PEPFAR-supported strengthening efforts, within the reporting period, by select
+    cadre</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Health Systems Strengthening</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of PEPFAR-supported testing facilities with capacity to perform clinical
+    laboratory tests</to_name>
+  </association>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Human Resource Information Systems (HRIS) Assessment Framework</name>
+  <code>C41</code>
+  <id>41</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>HRH_HRIS</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Key HIV/AIDS-related policies monitored through Policy Tracking Tables (PTTs)</name>
+  <code>C44</code>
+  <id>44</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>LGP_PTT</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Level 1 Indicators</name>
+  <code>C3</code>
+  <id>3</id>
+  <status>ACTIVE</status>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Level 1 Indicators</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Prevention Services</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Level 1 Indicators</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Care and Support</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Level 1 Indicators</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Treatment</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Level 1 Indicators</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Health Systems Strengthening</to_name>
+  </association>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of HIV positive adults and children receiving care and support services outside of
+   the health facility</name>
+  <code>C22</code>
+  <id>22</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>CARE_COMM</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of HIV positive adults and children who received at least one of the following during
+   the reporting period: clinical assessment (WHO staging) OR CD4 count OR viral load</name>
+  <code>C21</code>
+  <id>21</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>CARE_CURR</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of HIV-positive adults and children newly enrolled in clinical care during the
+   reporting period who received at least one of the following at enrollment: clinical assessment
+   (WHO staging) OR CD4 count OR viral load</name>
+  <code>C20</code>
+  <id>20</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>CARE_NEW</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of PEPFAR-supported testing facilities (laboratories) that are recognized by
+   national, regional, or international standards for accreditation or have achieved a minimal
+   acceptable level towards attainment of such accreditation</name>
+  <code>C36</code>
+  <id>36</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>LAB_ACC</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of PEPFAR-supported testing facilities with capacity to perform clinical laboratory
+   tests</name>
+  <code>C35</code>
+  <id>35</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>LAB_CAP</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of active beneficiaries accompanied or otherwise supported for transport to HIV
+   testing, care and/or treatment services at least once every three months</name>
+  <code>C29</code>
+  <id>29</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>OVC_ACC</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of active beneficiaries served by PEPFAR OVC programs for children and families
+   affected by HIV/AIDS</name>
+  <code>C28</code>
+  <id>28</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>OVC_SERV</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of adults and children currently receiving antiretroviral therapy (ART)
+   [current]</name>
+  <code>C31</code>
+  <id>31</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TX_CURR</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of adults and children newly enrolled on antiretroviral therapy (ART)</name>
+  <code>C30</code>
+  <id>30</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TX_NEW</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of individuals who received HIV Testing and Counseling (HTC) services for HIV and
+   received their test results</name>
+  <code>C2</code>
+  <id>2</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Explanation of Denominator</name>
+   <value>N/A</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>PEPFAR Support</name>
+   <value>DSD: Individuals will be counted as receiving direct service delivery support from PEPFAR
+    when BOTH of the below conditions are met: Provision of key staff or commodities AND frequent,
+    at least quarterly, support to improve the quality of services. TA-SDI: Individuals will be
+    counted as supported through TA-SDI when the point of service delivery receives support from
+    PEPFAR that meets the second criterion only: Frequent, at least quarterly support to improve the
+    quality of services. 1. PEPFAR is directly interacting with the patient or beneficiary in
+    response to their health (physical, psychological, etc.) care needs by providing key staff
+    and/or essential commodities for routine service delivery. For individuals receiving HTC
+    services, this can include ongoing procurement of critical HTC related commodities such as rapid
+    HIV test kits or requisite materials (lancets, capillary tubes), samples and materials for
+    proficiency testing, or other HIV diagnostic commodities, or funding for salaries of HCW who
+    deliver HTC services including counselors, laboratory technicians, program managers, community
+    health workers. Staff who are responsible for the completeness and quality of routine patient
+    records (paper or electronic) can be counted here; however, staff who exclusively fulfill MOH
+    and donor reporting requirements cannot be counted. AND/OR 2.Requires an established presence at
+    and/or routinized, frequent (at least quarterly) support to HTC services at the point of service
+    delivery. For HTC services, this ongoing support for service delivery improvement can include:
+    clinical mentoring/supportive supervision, HTC training, HTC guidance development,
+    infrastructure/renovation of facilities (fixed, mobile, and outreach sites), site level QI/QA,
+    routine support of HTC M&amp;E and reporting, or HIV test kits consumption forecasting and
+    supply management.</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Interpretation</name>
+   <value>This indicator is intended to monitor individuals and trends in the uptake of testing and
+    counseling over time. This indicator includes repeat testers and will provide information on the
+    number of times HTC services were delivered, rather than the number of unique individuals who
+    received HTC services. Repeat testing is common practice among most HTC programs and should be
+    aligned with World Health Organization (WHO) guidance on re-testing.1 The detailed age
+    disaggregation monitors uptake of HTC services among children and adolescents. HIV test results
+    are critical to monitor yield of HTC services and to estimate the linkage to care indicators.
+    Service delivery point and geographic area monitor access to HTC services by site type and
+    geographic location. The inclusion of test result data may change interpretation of this
+    indicator, as PEPFAR prioritizes consistently high yield from testing programs. The number of
+    individuals who are expected to be tested and counseled within a country will vary depending on
+    numerous factors such as, the numbers of individuals with previously confirmed positive status,
+    or the number of people who may be perceived at risk of HIV infection, and hence this indicator
+    should be interpreted accordingly. Given that this indicator is intended to count individuals
+    and not number of tests, data produced through this indicator would need further interpretation
+    for use in commodities planning. The type and focus of a HTC program for each respective country
+    has an impact on its interpretation. For example, a program that targets key populations or
+    areas with the highest HIV prevalence, may result in a smaller number of people tested, and yet
+    yield a higher identification of HIV infections than a program providing general HTC
+    services.</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Method of Measurement</name>
+   <value>Data for the numerator should be generated by counting the total number of individuals who
+    received HTC from any service delivery point during the PEPFAR reporting period. These
+    individuals will include TB patients, pregnant women, men receiving voluntary medical
+    circumcision, HIV-exposed infants, key populations, family members of index patients, etc. The
+    HTC_TST indicator includes targets and results from the following indicators when HTC services
+    are provided as part of the intervention package: • PMTCT_STAT • TB_STAT • VMMC_CIRC • GEND_GBV
+    • PP_PREV • KP_PREV Note: Serological testing among infants should be counted under the HTC_TST
+    indicator. HIV virologic testing of HIV exposed infants should be counted under the PMTCT_EID
+    indicator. The first priority of data collection and reporting of HTC services among key
+    populations must be to do no harm. These data must be managed with confidentiality to ensure the
+    identities of the individuals are protected to prevent further stigma and discrimination of key
+    populations. Service delivery settings captures testing of all age groups tested in these
+    respective settings including pediatric and adolescent populations. The “HIV care and treatment
+    clinic” category within the service delivery point disaggregation is intended to capture HTC
+    services provided to the partners and relatives of PLHIV, as part of the standard package of
+    care. HIV tests conducted at the HIV care and treatment clinics with the purpose of confirming
+    the diagnosis of PLHIV should not be counted under this indicator. When developing or modifying
+    existing M&amp;E systems and tools to collect and report this indicator, the following
+    information should be considered: • Demographic- Client’s name, sex, age at time of HTC
+    services, and key population • HIV testing and counseling- HIV test results, date of HIV test,
+    receipt of HIV test results, previously tested during the reporting period, and type of
+    counseling/testing • Site- site’s name, district, region, province, and service delivery point
+    *’Couple’ is defined as two persons in an ongoing sexual relationship and each of these persons
+    is referred to as a partner in the relationship. Couple HIV testing and counseling is when two
+    or more partners are counseled, tested and receive their results together. Index client is
+    defined as sexual and needle-sharing partner(s) and other family members of people diagnosed
+    with HIV who are targeted for HTC services due to possible exposure. When couple or index case
+    HIV testing and counseling happens data should be collected for each individual and it should be
+    indicated on the form that this was a couple or index-case session as opposed to an individual
+    session.</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>PEPFAR Support Target/Result Type</name>
+   <value>Both Direct Service Delivery (DSD) and Technical Assistance-Service Delivery Improvement
+    (TA-SDI) targets and results should be reported to HQ</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Explanation of Numerator</name>
+   <value>The numerator captures the number of individuals who received HIV Testing and Counseling
+    (HTC) services for HIV and received their test results. A minimum provision of the following
+    services is required for adequate data collection for this indicator: counseling, testing,
+    return, and receipt of test results.</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>HTC_TST</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>NGI Mapping</name>
+   <value>P11.1.D continuing - same indicator with modified disaggregations; no impact on trend
+    analysis</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Disaggregation(s)</name>
+   <value>HIV status: HIV negative: • Age/Sex disaggregates: &lt;1 Male, &lt;1 Female, 1-4 Male, 1-4
+    Female, 5-9 Male, 5-9 Female, 10-14 Male, 10-14 Female, 15-19 Male, 15-19 Female, 20-24 Male,
+    20-24 Female, 25-49 Male, 25-49 Female, 50+ Male, 50+ Female • Service delivery point: Antenatal
+    Clinic, Labor &amp; Delivery, Under 5 Clinic, Maternal and Child Health Clinic, Tuberculosis,
+    Sexually Transmitted Infections, Outpatient Department, Inpatient, HIV Care and Treatment
+    Clinic, Voluntary Medical Male Circumcision, Voluntary Counseling &amp; Testing co-located,
+    Voluntary Counseling &amp; Testing standalone, Mobile, Home-based, Other</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Disaggregation(s)</name>
+   <value>HIV status: HIV positive: • Age/Sex disaggregates: &lt;1 Male, &lt;1 Female, 1-4 Male, 1-4
+    Female, 5-9 Male, 5-9 Female, 10-14 Male, 10-14 Female, 15-19 Male, 15-19 Female, 20-24 Male,
+    20-24 Female, 25-49 Male, 25-49 Female, 50+ Male, 50+ Female • Service delivery point: Antenatal
+    Clinic, Labor &amp; Delivery, Under 5 Clinic, Maternal and Child Health Clinic, Tuberculosis,
+    Sexually Transmitted Infections, Outpatient Department, Inpatient, HIV Care and Treatment
+    Clinic, Voluntary Medical Male Circumcision, Voluntary Counseling &amp; Testing co-located,
+    Voluntary Counseling &amp; Testing standalone, Mobile, Home-based, Other</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Disaggregation(s)</name>
+   <value>Key population type/Test Result: FSW, MSM/Transgender, PWID (positive,negative)</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Disaggregation(s)</name>
+   <value>Previously tested during the reporting period: Yes, No</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Disaggregation(s)</name>
+   <value>Type of counseling/testing: Individual, Couple*, Index client</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Purpose</name>
+   <value>This indicator is intended to monitor trends in the uptake of HTC services (regardless of
+    the service delivery point and population group) within a country. The disaggregation by test
+    result provides information about the yield of HTC and the effectiveness of HTC programs in
+    identifying people living with HIV (PLHIV) over time. With the Care and Support indicator
+    (Number of HIV positive adults and children newly enrolled in clinical care), it contributes to
+    a proxy indicator for linkage. Data from this disaggregation also feeds into an individual-level
+    linkage indicator. The disaggregations are intended to monitor access to and uptake of HTC by
+    specific populations, HIV testing yield, and HTC setting and modality. The findings can support
+    national governments and programs to determine the coverage and identify gaps in HTC services.
+    This data may also be useful for projecting programmatic needs such as HIV test kits and other
+    staffing resources, although individuals are counted.</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Numerator</name>
+   <value>Number of individuals who received HTC services and received their test results during the
+    PEPFAR reporting period.</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Additional References</name>
+   <value>1.5, Global AIDS Response Progress Reporting 2013. Construction of Core Indicators for
+    monitoring the 2011 UN Political Declaration on HIV/AIDS. January 2013.
+    (http://www.unaids.org/en/media/unaids/contentassets/documents/document/2013/GARPR_2013_guidelines_en.pdf)</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Additional References</name>
+   <value>Prevention indicator (HIV-P7), The Global Fund to Fight AIDS, Tuberculosis and Malaria
+    Monitoring and Evaluation Toolkit: HIV, Tuberculosis and Malaria and Health Systems
+    Strengthening Part 2: Tools for monitoring programs for HIV, tuberculosis, malaria and health
+    systems strengthening, Fourth Edition, November
+    2011.(http://www.theglobalfund.org/documents/monitoring_evaluation/ME_Part2HIV_Toolkit_en/)</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Additional References</name>
+   <value>Utilization/Coverage indicator C3a, Guide for Monitoring and Evaluating National HIV
+    Testing and Counseling (HTC) Programmes: Field-Test Version. World Health Organization (WHO).
+    March 2011. (http://whqlibdoc.who.int/publications/2011/9789241501347_eng.pdf)</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Data Source</name>
+   <value>Existing HTC registers and reporting forms that are already being used to capture HTC
+    services could be revised to include the disaggregation categories. Examples of data collection
+    forms include client intake forms, activity report forms, or health registers such as
+    Tuberculosis, Antenatal Care, and HIV Testing and Counseling registers, health management
+    information systems registers and non-governmental organization records.</value>
+  </property>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Data Collection Frequency</name>
+   <value>Data collection at PEPFAR-funded sites should be ongoing as part of service delivery and
+    aggregated in time for PEPFAR reporting cycles. Data should be reviewed regularly for the
+    purposes of program management, to monitor progress towards achieving targets, and to identify
+    and correct any data quality issues.</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of males circumcised as part of the voluntary medical male circumcision (VMMC) for
+   HIV prevention program within the reporting period</name>
+  <code>C12</code>
+  <id>12</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>VMMC_CIRC</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of males circumcised surgically or by medical device that experienced at least one
+   moderate or severe adverse event(s) (AEs)</name>
+  <code>C13</code>
+  <id>13</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>VMMC_AE</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of new HCW who graduated from a pre-service training institution or program as a
+   result of PEPFAR-supported strengthening efforts, within the reporting period, by select
+   cadre</name>
+  <code>C40</code>
+  <id>40</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>HRH_PRE</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of people completing an intervention pertaining to gender norms, that meets minimum
+   criteria</name>
+  <code>C18</code>
+  <id>18</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>GEND_NORM</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of people receiving post-GBV care</name>
+  <code>C17</code>
+  <id>17</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>GEND_GBV</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of people who inject drugs (PWID) on medication assisted therapy (MAT) for at least 6
+   months</name>
+  <code>C16</code>
+  <id>16</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>KP_MAT</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Number of whole blood collections each year by the NBTS network</name>
+  <code>C38</code>
+  <id>38</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>BS_COLL</value>
+  </property>
+ </concept>
+ <concept root="true">
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>PEPFAR MER Indicators ROOT</name>
+  <code>C1</code>
+  <id>1</id>
+  <status>ACTIVE</status>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>PEPFAR MER Indicators ROOT</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Level 1 Indicators</to_name>
+  </association>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of ART patients with a viral load result documented in the medical record within
+   the past 12 months</name>
+  <code>C33</code>
+  <id>33</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TX_VIRAL</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of HIV-positive pregnant women who received antiretrovirals to reduce risk for
+   mother-to-child-transmission (MTCT) during pregnancy and delivery</name>
+  <code>C9</code>
+  <id>9</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>PMTCT_ARV</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of PEPFAR-supported clinical care sites at which at least 80% of PLHIV received
+   all of the following during the reporting period: 1) clinical assessment (WHO staging) OR CD4
+   count OR viral load, AND 2) TB screening at last visit, AND 3) if eligible, cotrimoxazole</name>
+  <code>C23</code>
+  <id>23</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>CARE_SITE</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of PLHIV newly enrolled in HIV clinical care who start isoniazid preventative
+   therapy (IPT)</name>
+  <code>C26</code>
+  <id>26</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TB_IPT</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of adults and children known to be alive and on treatment 12 months after
+   initiation of antiretroviral therapy (Recommended: 6, 24, 36 months)</name>
+  <code>C32</code>
+  <id>32</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TX_RET</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of individuals from priority populations who completed a standardized HIV
+   prevention intervention, including the specified minimum components, during the reporting
+   period</name>
+  <code>C14</code>
+  <id>14</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>PP_PREV</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of infants born to HIV-positive women who had a virologic HIV test done within 12
+   months of birth</name>
+  <code>C10</code>
+  <id>10</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>PMTCT_EID</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of key populations reached with individual and/or small group level HIV
+   preventive interventions that are based on evidence and/or meet the minimum standards
+   required</name>
+  <code>C15</code>
+  <id>15</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>KP_PREV</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of laboratories and POC testing sites that perform HIV diagnostic testing that
+   participate and successfully pass in an analyte-specific proficiency testing (PT) program</name>
+  <code>C37</code>
+  <id>37</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>LAB_PT</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of pregnant women with known status (includes women who were tested for HIV and
+   received their results)</name>
+  <code>C8</code>
+  <id>8</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>PMTCT_STAT</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of registered TB cases who are HIV-positive who are on ART</name>
+  <code>C25</code>
+  <id>25</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TB_ART</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of registered new and relapsed TB cases with documented HIV status</name>
+  <code>C24</code>
+  <id>24</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TB_STAT</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Percentage of storage sites where commodities are stocked according to plan, by level in
+   supply system</name>
+  <code>C39</code>
+  <id>39</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>SC_STOCK</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Prevention Services</name>
+  <code>C4</code>
+  <id>4</id>
+  <status>ACTIVE</status>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of people receiving post-GBV care</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of HIV-positive pregnant women who received antiretrovirals to reduce risk
+    for mother-to-child-transmission (MTCT) during pregnancy and delivery</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Family Planning and HIV Integration: Percentage of HIV service delivery points supported
+    by PEPFAR that are directly providing integrated voluntary family planning services</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Final outcomes among HIV exposed infants registered in the birth cohort</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of infants born to HIV-positive women who had a virologic HIV test done
+    within 12 months of birth</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of key populations reached with individual and/or small group level HIV
+    preventive interventions that are based on evidence and/or meet the minimum standards
+    required</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of people who inject drugs (PWID) on medication assisted therapy (MAT) for at
+    least 6 months</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of people completing an intervention pertaining to gender norms, that meets
+    minimum criteria</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of males circumcised surgically or by medical device that experienced at least
+    one moderate or severe adverse event(s) (AEs)</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of individuals from priority populations who completed a standardized HIV
+    prevention intervention, including the specified minimum components, during the reporting
+    period</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of pregnant women with known status (includes women who were tested for HIV
+    and received their results)</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of males circumcised as part of the voluntary medical male circumcision (VMMC)
+    for HIV prevention program within the reporting period</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Prevention Services</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of individuals who received HIV Testing and Counseling (HTC) services for HIV and
+    received their test results</to_name>
+  </association>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Proportion of clinically undernourished PLHIV who received therapeutic or supplementary
+   food</name>
+  <code>C27</code>
+  <id>27</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>FN_THER</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Proportion of viral load tests with an undetectable viral load (&lt;1000 copies/ml)</name>
+  <code>C34</code>
+  <id>34</id>
+  <status>ACTIVE</status>
+  <property>
+   <content>PEPFAR MER Indicators</content>
+   <name>Indicator code</name>
+   <value>TX_UNDETECT</value>
+  </property>
+ </concept>
+ <concept>
+  <namespace>PEPFAR MER Indicators</namespace>
+  <name>Treatment</name>
+  <code>C6</code>
+  <id>6</id>
+  <status>ACTIVE</status>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Treatment</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of adults and children currently receiving antiretroviral therapy (ART)
+    [current]</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Treatment</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Number of adults and children newly enrolled on antiretroviral therapy (ART)</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Treatment</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Proportion of viral load tests with an undetectable viral load (&lt;1000
+    copies/ml)</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Treatment</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of adults and children known to be alive and on treatment 12 months after
+    initiation of antiretroviral therapy (Recommended: 6, 24, 36 months)</to_name>
+  </association>
+  <association>
+   <namespace>PEPFAR MER Indicators</namespace>
+   <name>Parent Of</name>
+   <from_namespace>PEPFAR MER Indicators</from_namespace>
+   <from_name>Treatment</from_name>
+   <to_namespace>PEPFAR MER Indicators</to_namespace>
+   <to_name>Percentage of ART patients with a viral load result documented in the medical record
+    within the past 12 months</to_name>
+  </association>
+ </concept>
+</terminology>
