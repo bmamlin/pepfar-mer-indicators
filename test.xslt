@@ -6,6 +6,13 @@
         <xsl:output-character character="&#xE802;" string="&gt;"/>
     </xsl:character-map>
     <xsl:output encoding="UTF-8" indent="yes" method="xhtml" use-character-maps="cmap"/>
+    
+    <xsl:template match="/">
+        <xsl:apply-templates />
+    </xsl:template>
+    
+    <xsl:template match="@*|text()" />
+    
     <xsl:template match="/terminology">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
