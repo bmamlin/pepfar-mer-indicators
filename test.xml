@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xslt" href="test.xslt"?>
+<?xml-stylesheet type="text/xsl" href="test.xslt"?>
 <!-- DTS Export Terminology File Version 2 -->
 <terminology type="namespace">
  <namespace type="Thesaurus">
